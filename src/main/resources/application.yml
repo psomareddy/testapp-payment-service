@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: paymentService
+  server:
+    port: 8013
+netty:
+  default:
+    allocator:
+      max-order: 3
